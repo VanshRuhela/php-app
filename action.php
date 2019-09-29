@@ -7,9 +7,9 @@ $interest=$_POST['interest'];
 
 if(!empty($name)|| !empty($contact)|| !empty($En)|| !empty($branch)|| !empty($interest))
 {
-    $severname="localhost";
-    $username="root";
-    $password="";
+    $severname="51.158.118.84:33060";
+    $username="vansh";
+    $password="12345678";
     $dbname="noobsters";
     $conn=new mysqli($severname,$username,$password,$dbname);
     $room;
