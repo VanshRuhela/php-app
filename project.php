@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+<style >
+
+  input[type=submit] {
+   background-color:green; font-family:cursive ;  color:white; width: 20em;  height: 5em; border-radius: 16px;   border: none;display: inline-block;
+}
+
+.parallax1{
+background-image:url("sport.jpg");
+  min-height: 500px;
+ background-position: center;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}.parallax2{
+background-image:url("coding.jpg");
+  min-height: 500px;
+ background-position: center;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+  .parallax3{
+background-image:url("gaming.jpg");
+  min-height: 500px;
+ background-position: center;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+  .parallax4{
+background-image:url("reading.jpg");
+  min-height: 500px;
+ background-position: center;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+ .parallax5{
+background-image:url("indoor.jpg");
+  min-height: 500px;
+ background-position: center;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+  
+  
+
+
+  body{
+    background-image:url("background.jpg"),url("black.jpg");
+    background-repeat: no-repeat,repeat;
+    background-size:auto,cover ;
+      }
+
+
+
+#head{
+border: 1px solid black;
+ background-image:url("personal.jpg");
+ background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+  padding-top: 25px;
+ 
+  padding-bottom: 25px;
+
+}
+
+
+
+#bl1{
+
+background-image:url("personal.jpg");
+ background-position: center;
+padding-top:10px;
+padding-bottom: 10px;
+
+}
+
+
+</style>
+</head>
+
+
+
+
+<body >
+
+<p  style="font-size: 80px;color:white;text-align: center;"><b>
+<img src="logo.jpg" alt="Girl in a jacket" width="250" height="250" align="left"> IITR <br>Hostel Room Allocation</b>
+</p>
+<marquee style="color:floralwhite;font-size:30px;font-family:fantasy;">IITR WELCOMES YOU ! &nbsp&nbsp&nbsp&nbsp&nbsp WE&nbspALLOTE ROOM BASED ON YOUR AREA OF INTEREST. </marquee>
+<form action="/action.php" method="post">
+  <br><br><br><br><br>
+<fieldset>
+  <legend style="font-size:25px"> Personal Information </legend>
+
+<p style="font-family: cursive;"><b>ENTER NAME : </b><input type="text" name="name"> </p>
+<p style="font-family: cursive;"><b>ENTER CONTACT NUMBER : </b><input type="text" name="Contact" /p>
+<p style="font-family: cursive;"><b>ENROLMENT NUMBER : </b><input type="text" name="En" </p>
+
+<p style="font-family: cursive;"><b>BRANCH : </b><select name="branch">
+    <option value="CSE">Computer Science</option>
+    <option value="ECE">Electronics and Communication</option>
+    <option value="EE">Electrical Engineering</option>
+    <option value="CH">Chemical Engineering</option>
+    <option value="CE">Civil Engineering</option>
+  </select>
+
+<br>
+
+ </fieldset>
+ <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
+
+<p  style="color:powderblue;font-family:fantasy;font-size: 50px;text-align: center;" > #Sports#</p>
+<div class="parallax1"></div>
+<div style="color:white;height:500px;background-color:black;font-size:36px"> <br>Hi guys,here you csn join with your players to play and enjoy team work . You can increase your sports skill.Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+
+<p  style="color:powderblue;font-family:fantasy;font-size: 50px;text-align: center;" > #Coding# </p>
+<div class="parallax2"></div>
+<div style="color:white;height:500px;background-color:black;font-size:36px"> <br>Hi guys,here you csn join with your players to play and enjoy team work . You can increase your sports skill.Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<p  style="color:powderblue;font-family:fantasy;font-size: 50px;text-align: center;" > #Gaming# </p>
+<div class="parallax3"></div>
+<div style="color:white;height:500px;background-color:black;font-size:36px"><br> Hi guys,here you csn join with your players to play and enjoy team work . You can increase your sports skill.Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<p  style="color:powderblue;font-family:fantasy;font-size: 50px;text-align: center;" > #Reading# </p>
+<div class="parallax4"></div>
+<div style="color:white;height:500px;background-color:black;font-size:36px"><br> Hi guys,here you csn join with your players to play and enjoy team work . You can increase your sports skill.Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<p  style="color:powderblue;font-family:fantasy;font-size: 50px;text-align: center;" > #Indoor# </p>
+<div class="parallax5"></div>
+<div style="color:white;height:500px;background-color:black;font-size:36px"><br> Hi guys,here you csn join with your players to play and enjoy team work . You can increase your sports skill.Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+
+
+
+<p style="color:powderblue;text-align: center ;font-family: fantasy;font-size: 40px">SELECT &nbsp INTEREST : -</p>
+<p style="color:white;text-align: center ;font-family:cursive;font-size: 20px">
+<input type="radio" name="interest" value ="S">Sports<br>
+<input type="radio" name="interest" value ="C">Coding<br>
+<input type="radio" name="interest" value ="G">Gaming<br>
+<input type="radio" name="interest" value ="R">Reading<br>
+<input type="radio" name="interest" value ="I">Indoor Games <br>
+<br>
+</p>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <button class="button button4"><input type ="submit" value ="Submit"></button>
+
+
+</form>
+<img src="noobster.jpg" alter="noobies" height="150" weight="150">
+
+
+
+
+
+
+</body>
+</html>
+
