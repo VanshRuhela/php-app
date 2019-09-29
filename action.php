@@ -46,5 +46,5 @@ else{
   die();
     
 }
-echo "<script>window.location='project.php'</script>";
+//echo "<script>window.location='project.php'</script>";
 ?>
